@@ -1,0 +1,21 @@
+.pagination {
+    position: absolute;
+    z-index: 20;
+    bottom: 0.1rem;
+    width: 100%;
+    text-align: center;
+    }
+    .swiper-pagination-switch {
+    display: inline-block;
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius:50%;
+    background: #555;
+    margin: 0 0.05rem;
+    opacity: 0.8;
+    border: 0.01rem solid #fff;
+    cursor: pointer;
+    }
+    .swiper-active-switch {
+    background: #fff;
+    }
