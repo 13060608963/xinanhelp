@@ -1,0 +1,55 @@
+.content{
+    background-color: rgb(231, 227, 227);
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+.content-one{
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    padding: 0.3rem;
+    background-color: white;
+    border-radius: 0.1rem;
+}
+
+/* content-oneDiv内容 */
+.content-oneDiv{
+    width: 10rem;
+    height: 10rem;
+    background-color: tomato;
+    position: relative;
+}
+.text-p1{
+    display: flex;
+    justify-content: space-between;
+}
+.text1{
+    width: 10rem;
+    font-size: 0.05rem;
+    color: #858485;
+    height: 2.2rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.text-nub1{
+    font-size: 0.5rem;
+    color: #fa5a5a;
+    display: flex;
+
+}
+.text-hua1{
+    font-size: 0.05rem;
+    color: #858485;
+    text-decoration: line-through;
+    display: flex; 
+}
+.text-biao1{
+    font-size: 0.1rem;
+    color: #fa5a5a;
+    display: flex;
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/swiper.css">
+    <link rel="stylesheet" href="../../css/pagination.css">
+    <link rel="stylesheet" href="../../css/store/alliance.css">      
+    <script src="../../js/swiper.js"></script>
+    <script src="../../js/vue.js"></script>
+    <title>店铺  商户端</title>
+    <style>
+        *{
+            margin: 0;
+        }  
+        .aaaa{
+            width: 100%;
+            height: 16rem;
+            background: red;
+        }
+        
+
+    </style> 
+</head>
+<body>
+    <div class="app">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="aaaa">123</div>
+                    </div>
+                    <div class="swiper-slide">
+                            <div class="aaaa">123</div>
+                        </div>
+                </div>
+                <div class="pagination"></div>
+            </div>
+
+            <div class="content">
+                    <div class="content-one">
+                        <div class="content-oneDiv"></div>
+                        <p class="text1">中石化中石化中石化中石化中石化石化中石化中石化中石指南更多</p>
+                        <div class="text-p1">
+                            <p class="text-nub1">￥730.00<span class="text-hua1">￥6900</span></p>
+                            <p class="text-biao1">￥</p>
+                        </div>
+                    </div>
+            </div>
+            
+            
+    </div>
+</body>
+<script>
+    window.onload = function() {
+        var mySwiper = new Swiper('.swiper-container',{
+                autoplay : 4000,//可选选项，自动滑动
+                loop : true,//可选选项，开启循
+                pagination : '.pagination',
+        });  
+    }
+    var app = new Vue({
+        el:'.app',
+        data:{
+
+        },
+        methods:{
+
+        }
+    })
+</script>
+</html>

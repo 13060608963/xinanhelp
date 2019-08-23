@@ -1,0 +1,12 @@
+.content{
+    background-color: #ecebeb;
+}
+.content-neirong{
+    padding: 0.1rem;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aqua;    
+}
